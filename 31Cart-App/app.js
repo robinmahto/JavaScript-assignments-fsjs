@@ -1,15 +1,17 @@
+// const arrayOfOddNumbers = [1, 3, 5];
+// arrayOfOddNumbers[100] = 199;
+// console.log(arrayOfOddNumbers.length);
+// console.log(arrayOfOddNumbers)
 
-function display() {
+// const arrayOfNumbers = [1, 2, 3, 4, 5,6];
+// let res = arrayOfNumbers.reduce((accumulator, currentValue, index, array) => {
+//     return array[index] = array[index] * 2;
+// });
 
-    return function sum(){
-        return function (){
-            return 2+7
-        }
-    }
-}
+// console.log(res)
 
-const a = () => console.log("arrow function")
+const arr =  [NaN, 0, 15, false, -22, '',undefined, 47, null]
 
-console.log(a instanceof Function)
+let res = arr.every((e)=> e === Number)
 
-console.log(display()()())
+console.log(res)
