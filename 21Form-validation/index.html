@@ -8,9 +8,61 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>working on form validation</h1>
-    
 
+    <div class="form_container">
+
+       <h1>Form Validation</h1>  
+
+       <div class="form_username">
+         <div class="first_name">
+            <input type="text" placeholder="Enter First Name">
+         </div> 
+         <div class="last_name">
+           <input type="text" placeholder="Enter Last Name">
+         </div>
+       </div>
+
+       <div class="user_secret">
+         <div class="user_email">
+           <input type="email" placeholder="Enter E-mail Address">
+         </div>
+         <div class="user_password">
+            <input type="password" placeholder="Enter Password">
+         </div>
+       </div>
+
+       <div>
+         <div class="user_gender">
+           <label for="html">HTML</label>
+           <input type="radio" id="html" name="fav_language" value="HTML">
+         </div>
+         <div class="user_gender">
+            <label for="css">CSS</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+          </div> <div class="user_gender">
+            <label for="javascript">JavaScript</label>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+          </div>
+       </div>
+
+       <div>
+          <div class="user_choices">
+            <label for="bike">I have a bike</label>
+            <input type="checkbox" id="bike" name="vehicle1" value="Bike">
+          </div>
+          <div class="user_choices">
+            <label for="car">I have Car</label>
+            <input type="checkbox" id="car" name="vehicle1" value="Car">
+          </div>
+          <div class="user_choices">
+            <label for="boat">I have boat</label>
+            <input type="checkbox" id="boat" name="vehicle1" value="Boat">
+          </div>
+       </div>
+
+
+
+    </div>
 
     <script src="./app.js"></script>
 </body>
